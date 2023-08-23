@@ -7,6 +7,7 @@ import StyledBox from './Component/style';
 import Login from './Component/login';
 import UseReducer from './Component/useReducer'
 import RefComponent from './Component/useRef'
+import AxiosComponent from './Component/axiosComponent'
 
 function App() {
   const initialValues = ['one', 'two', 'three'];
@@ -45,6 +46,10 @@ function App() {
 
       <div className='my-5 py-5 bg-success'>
         <RefComponent />
+      </div>
+
+      <div className='my-5 py-5 bg-success'>
+        <AxiosComponent />
       </div>
 
     
